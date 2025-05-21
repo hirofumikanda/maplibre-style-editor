@@ -1,13 +1,16 @@
 {
-  "name": "charites-like-opfs",
+  "name": "maplibre-style-editor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hirofumikanda.github.io/maplibre-style-editor",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 5230",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@codemirror/lang-css": "^6.3.0",
@@ -30,6 +33,7 @@
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.13",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "typescript": "~5.8.0",
     "typescript-eslint": "^8.10.0",
