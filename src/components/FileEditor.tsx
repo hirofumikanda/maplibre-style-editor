@@ -397,7 +397,7 @@ export const FileEditor: React.FC = () => {
               initialViewState={{
                 longitude: 139.766966,
                 latitude: 35.681163,
-                zoom: 14,
+                zoom: 11,
               }}
               style={{ width: "100%", height: "100%" }}
               mapStyle={styleJsonOutput}
