@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/FileEditor.tsx","./src/hooks/keybind.ts","./src/hooks/latest.ts","./src/lib/react-codemirror/extensions/color-yaml/index.ts","./src/lib/react-codemirror/extensions/color-yaml/utils.ts","./src/utils/parseYaml.ts"],"version":"5.8.3"}
